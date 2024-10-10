@@ -10,7 +10,7 @@ y = lifesat[["Life satisfaction"]].values
 
 print(lifesat.head(27))
 
-lifesat.plot(kind='scatter', grid=True, x="GDP per capita (USD)", y="Life satisfaction")
+lifesat.plot(kind='scatter', grid=True, x="GDP  per capita (USD)", y="Life satisfaction")
 plt.axis([23500, 63000, 3, 10])
 plt.show()
 
